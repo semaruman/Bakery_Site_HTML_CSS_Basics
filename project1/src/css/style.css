@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE2B0;
+}
+
+
+/*===== Логотип вначале =====*/
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*===== Навигационная панель =====*/
+.nav__ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.nav__a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav__li { /*Внешний отступ не применяется к последнему элементу*/
+    display: inline;
+    margin-right: 100px;
+}
+
+.nav__li-last {
+    display: inline;
+    margin-right: 0px;
+}
+
+
+/*===== Основная часть контента на сайте =====*/
+.main__section-about {
+    position: relative;
+    height: 640px;
+    background-image: url(../img/01-Картинка-фона.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.main__spetial-order {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8)0%,
+    rgba(234, 156, 65, 0.8)100%);
+    margin: 15px 10px 15px 10px;
+    border: 1px solid black;
+    padding: 15px 10px 15px 28px;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    text-align: left;
+}
+
+.main__spetial-order-h1-text {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+}
+
+
+/*Часть сайта с тремя иконками*/
+.main__3-images-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main__image-section {
+    display: inline;
+    width: 290px;
+    height: 290px;
+    margin-right: 76px;
+}
+.main__image-section-last {
+    display: inline;
+    width: 290px;
+    height: 290px;
+}
+
+/*Выпечка - это вкусно и т.д.*/
+.main__section3-h1 {
+    font-size: 96px;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+}
+
+.main__section3_span {
+    color: red;
+}
+
+.main__section3-p {
+    margin-bottom: 20px;
+    font-family: roboto;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.section_map {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section_map-h2 {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+}
+
+
+/*Подвал сайта*/
+.footer_line {
+    width: 1024px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #999999;
+}
